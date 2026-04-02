@@ -31,8 +31,11 @@ This project analyzes transactional sales data to identify trends in revenue, cu
 - 10 AM represents the peak single hour, while revenue is distributed across evening hours  
 
 #### 📂 Files
-- `dashboard.xlsx` → Excel dashboard  
-- `report.pdf` → Project report  
+- [Excel Dashboard](coffee-shop-dashboard/coffee-dashboard.xlsx)  
+- [Project Report](coffee-shop-dashboard/coffee-report.pdf)  
+
+#### 📸 Dashboard Preview
+![Dashboard](coffee-shop-dashboard/dashboard-preview.png) 
 
 ---
 
