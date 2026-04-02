@@ -7,12 +7,6 @@ A portfolio of data analytics projects showcasing dashboard development, data an
 
 ---
 
-# Data Analytics Portfolio
-
-A portfolio of data analytics projects showcasing dashboard development, data analysis, and business insights using tools like Excel and Python.
-
----
-
 ## 📊 Projects
 
 ### 1. Coffee Shop Sales Dashboard (Excel)
