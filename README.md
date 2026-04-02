@@ -13,7 +13,7 @@ A portfolio of data analytics projects showcasing dashboard development, data an
 
 An interactive Excel dashboard for analyzing coffee shop sales performance and generating business insights.
 
-🔗 [View Project](coffee-shop-dashboard/)
+🔗 [View Project](./coffee-shop-dashboard/)
 
 ---
 
