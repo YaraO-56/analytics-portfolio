@@ -24,9 +24,9 @@ The projects highlight experience in:
 
 An interactive Excel dashboard designed to analyze coffee shop sales performance, monitor key metrics, and support business decision-making through visual insights.
 
-🔗 View Project
+🔗 [View Project](coffee-shop-dashboard)
 
-### 📈 Sales Performance Dashboard (Power BI)
+### 📈 Bike Store Sales Analytics Dashboard (Power BI)
 
 An interactive Power BI dashboard developed to analyze sales performance using key business metrics such as:
 
@@ -40,7 +40,7 @@ An interactive Power BI dashboard developed to analyze sales performance using k
 
 The dashboard provides actionable business recommendations based on profitability trends, order status, and customer purchasing behavior.
 
-🔗 View Project
+🔗 [View Project](bike-store-sales-analytics-dashboard-powerbi)
 
 ---
 
