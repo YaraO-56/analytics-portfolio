@@ -91,23 +91,10 @@ Based on the dashboard analysis:
 ---
 
 ## 📂 Files
+- 🔗 hr-analytics-employee-attrition-dashboard/HR-Employee-Attrition.xlsx
+- 🔗 hr-analytics-employee-attrition-dashboard/HR_Analytics_Employee_Attrition.pdf
 
 
-
----
-
-## 📷 Dashboard Preview
-
-### Executive Summary
-_Add dashboard screenshot here_
-
-### Attrition Drivers Analysis
-_Add dashboard screenshot here_
-
-### Workforce Profile
-_Add dashboard screenshot here_
-
----
 
 ## 👤 Author
 
