@@ -91,8 +91,9 @@ Based on the dashboard analysis:
 ---
 
 ## 📂 Files
-- 🔗 hr-analytics-employee-attrition-dashboard/HR-Employee-Attrition.xlsx
-- 🔗 hr-analytics-employee-attrition-dashboard/HR_Analytics_Employee_Attrition.pdf
+
+- 🔗 [HR Employee Attrition Dataset](HR-Employee-Attrition.xlsx)
+- 🔗 [HR Analytics Dashboard Report](HR_Analytics_Employee_Attrition.pdf)
 
 
 
