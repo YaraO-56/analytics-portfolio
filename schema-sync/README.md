@@ -110,5 +110,3 @@ Yara
 Software Engineering & Data Quality Portfolio Project
 
 ---
-
-هذا النوع من README يعجب مسؤولي التوظيف أكثر لأنه مختصر وواضح ويبرز المشكلة والحل والمهارات مباشرة بدون صفحات طويلة من الشرح.
