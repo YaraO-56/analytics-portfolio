@@ -107,6 +107,7 @@ Standardized Output + Quality Report
 ## Author
 
 Yara
+
 Software Engineering & Data Quality Portfolio Project
 
 ---
