@@ -67,6 +67,33 @@ The dashboard helps identify workforce trends, understand employee retention cha
 
 ---
 
+### 📋 SchemaSync – Excel Data Quality & Standardization Platform (Python)
+
+A template-driven platform developed to automate Excel data validation, standardization, and quality assessment workflows.
+
+SchemaSync was designed to solve a common challenge faced by organizations that receive Excel files from multiple departments or external sources with inconsistent structures, formats, and data quality.
+
+Key capabilities include:
+
+- Template-Based Validation
+- Schema Matching & Smart Sheet Assignment
+- Single File Analysis
+- Multi-File Batch Processing
+- Data Quality Assessment
+- Missing Values & Missing Columns Detection
+- Unknown Values Detection
+- Date Analysis & Standardization
+- Outlier Detection
+- Automated Report Generation
+- Standardized Excel Export
+- Template Management System
+
+The platform helps reduce manual data preparation effort, improve data consistency, and streamline validation workflows before reporting and analysis.
+
+🔗 [View Project](schema-sync)
+
+---
+
 ## 🚀 Future Projects
 
 More analytics projects will be added in areas such as:
