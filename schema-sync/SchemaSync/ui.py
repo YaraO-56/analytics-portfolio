@@ -349,14 +349,18 @@ with analysis_tab1:
             temp_path = temp_file.name
 
         with st.spinner("Running analysis..."):
-            st.session_state.results = run_pipeline(
-                temp_path,
+          try:
+             st.session_state.results = run_pipeline(
+               temp_path,
                 selected_template
-            )
+             )
 
-        st.session_state.uploaded_file_name = uploaded_file.name
-        st.success("Analysis completed successfully")
+             st.session_state.uploaded_file_name = uploaded_file.name
+             st.success("Analysis completed successfully")
 
+          except Exception as error:
+            st.session_state.results = None
+            st.error(str(error))
     results = st.session_state.results
 
     if results is not None:
