@@ -1,0 +1,18 @@
+{
+    "Product": [
+        "Cake",
+        "Coffee",
+        "Juice",
+        "Sandwich",
+        "Tea"
+    ],
+    "Category": [
+        "Dessert",
+        "Drinks",
+        "Food"
+    ],
+    "Month": [
+        "April",
+        "May"
+    ]
+}

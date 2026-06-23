@@ -1,0 +1,160 @@
+{
+    "template_name": "Hospital Multi Sheet Template",
+    "safe_name": "hospital_multi_sheet_template",
+    "template_file_path": "templates/hospital_multi_sheet_template/template.xlsx",
+    "created_at": "2026-06-21T14:19:28",
+    "is_multi_sheet": true,
+    "sheet_names": [
+        "Sales",
+        "Pharmacy",
+        "Patients",
+        "Finance"
+    ],
+    "columns": [
+        {
+            "Column": "Date",
+            "Physical Type": "object",
+            "Logical Type": "Empty",
+            "Unique Values": 0,
+            "Unique Ratio": 0,
+            "Missing Values": 0,
+            "Missing %": 0
+        },
+        {
+            "Column": "Product",
+            "Physical Type": "object",
+            "Logical Type": "Empty",
+            "Unique Values": 0,
+            "Unique Ratio": 0,
+            "Missing Values": 0,
+            "Missing %": 0
+        },
+        {
+            "Column": "Sales",
+            "Physical Type": "object",
+            "Logical Type": "Empty",
+            "Unique Values": 0,
+            "Unique Ratio": 0,
+            "Missing Values": 0,
+            "Missing %": 0
+        }
+    ],
+    "sheets": {
+        "Sales": [
+            {
+                "Column": "Date",
+                "Physical Type": "object",
+                "Logical Type": "Empty",
+                "Unique Values": 0,
+                "Unique Ratio": 0,
+                "Missing Values": 0,
+                "Missing %": 0
+            },
+            {
+                "Column": "Product",
+                "Physical Type": "object",
+                "Logical Type": "Empty",
+                "Unique Values": 0,
+                "Unique Ratio": 0,
+                "Missing Values": 0,
+                "Missing %": 0
+            },
+            {
+                "Column": "Sales",
+                "Physical Type": "object",
+                "Logical Type": "Empty",
+                "Unique Values": 0,
+                "Unique Ratio": 0,
+                "Missing Values": 0,
+                "Missing %": 0
+            }
+        ],
+        "Pharmacy": [
+            {
+                "Column": "Medication ID",
+                "Physical Type": "object",
+                "Logical Type": "Empty",
+                "Unique Values": 0,
+                "Unique Ratio": 0,
+                "Missing Values": 0,
+                "Missing %": 0
+            },
+            {
+                "Column": "Drug Name",
+                "Physical Type": "object",
+                "Logical Type": "Empty",
+                "Unique Values": 0,
+                "Unique Ratio": 0,
+                "Missing Values": 0,
+                "Missing %": 0
+            },
+            {
+                "Column": "Quantity",
+                "Physical Type": "object",
+                "Logical Type": "Empty",
+                "Unique Values": 0,
+                "Unique Ratio": 0,
+                "Missing Values": 0,
+                "Missing %": 0
+            }
+        ],
+        "Patients": [
+            {
+                "Column": "Patient ID",
+                "Physical Type": "object",
+                "Logical Type": "Empty",
+                "Unique Values": 0,
+                "Unique Ratio": 0,
+                "Missing Values": 0,
+                "Missing %": 0
+            },
+            {
+                "Column": "Patient Name",
+                "Physical Type": "object",
+                "Logical Type": "Empty",
+                "Unique Values": 0,
+                "Unique Ratio": 0,
+                "Missing Values": 0,
+                "Missing %": 0
+            },
+            {
+                "Column": "Age",
+                "Physical Type": "object",
+                "Logical Type": "Empty",
+                "Unique Values": 0,
+                "Unique Ratio": 0,
+                "Missing Values": 0,
+                "Missing %": 0
+            }
+        ],
+        "Finance": [
+            {
+                "Column": "Invoice ID",
+                "Physical Type": "object",
+                "Logical Type": "Empty",
+                "Unique Values": 0,
+                "Unique Ratio": 0,
+                "Missing Values": 0,
+                "Missing %": 0
+            },
+            {
+                "Column": "Amount",
+                "Physical Type": "object",
+                "Logical Type": "Empty",
+                "Unique Values": 0,
+                "Unique Ratio": 0,
+                "Missing Values": 0,
+                "Missing %": 0
+            },
+            {
+                "Column": "Status",
+                "Physical Type": "object",
+                "Logical Type": "Empty",
+                "Unique Values": 0,
+                "Unique Ratio": 0,
+                "Missing Values": 0,
+                "Missing %": 0
+            }
+        ]
+    }
+}

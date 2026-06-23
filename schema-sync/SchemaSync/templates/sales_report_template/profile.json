@@ -1,0 +1,62 @@
+{
+    "template_name": "Sales Report Template",
+    "safe_name": "sales_report_template",
+    "template_file_path": "templates/sales_report_template/template.xlsx",
+    "created_at": "2026-06-18T13:29:46",
+    "columns": [
+        {
+            "Column": "Date",
+            "Physical Type": "str",
+            "Logical Type": "Date",
+            "Unique Values": 5,
+            "Unique Ratio": 1.0,
+            "Missing Values": 0,
+            "Missing %": 0.0
+        },
+        {
+            "Column": "Product",
+            "Physical Type": "str",
+            "Logical Type": "Text",
+            "Unique Values": 5,
+            "Unique Ratio": 1.0,
+            "Missing Values": 0,
+            "Missing %": 0.0
+        },
+        {
+            "Column": "Category",
+            "Physical Type": "str",
+            "Logical Type": "Text",
+            "Unique Values": 3,
+            "Unique Ratio": 0.6,
+            "Missing Values": 0,
+            "Missing %": 0.0
+        },
+        {
+            "Column": "Sales",
+            "Physical Type": "int64",
+            "Logical Type": "Numeric",
+            "Unique Values": 5,
+            "Unique Ratio": 1.0,
+            "Missing Values": 0,
+            "Missing %": 0.0
+        },
+        {
+            "Column": "Quantity",
+            "Physical Type": "int64",
+            "Logical Type": "Numeric",
+            "Unique Values": 3,
+            "Unique Ratio": 0.6,
+            "Missing Values": 0,
+            "Missing %": 0.0
+        },
+        {
+            "Column": "Month",
+            "Physical Type": "str",
+            "Logical Type": "Text",
+            "Unique Values": 2,
+            "Unique Ratio": 0.4,
+            "Missing Values": 0,
+            "Missing %": 0.0
+        }
+    ]
+}

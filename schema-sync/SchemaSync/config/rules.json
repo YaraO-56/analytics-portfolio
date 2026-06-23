@@ -1,0 +1,11 @@
+{
+  "fill_missing": {},
+  "replace_values": {},
+  "standardize_values": {},
+  "date_standardization": {
+    "Date": {
+      "dayfirst": true,
+      "output_format": "%Y-%m-%d"
+    }
+  }
+}

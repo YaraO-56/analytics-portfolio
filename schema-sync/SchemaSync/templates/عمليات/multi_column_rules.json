@@ -1,0 +1,190 @@
+{
+    "LL": [
+        {
+            "Column": "Patient Name",
+            "Validation Type": "Open Text",
+            "Allowed Values Applied": false,
+            "Reason": "Column appears to contain open/free-text values"
+        },
+        {
+            "Column": "Gender",
+            "Validation Type": "Closed List",
+            "Allowed Values Applied": true,
+            "Reason": "Column appears to contain controlled values"
+        },
+        {
+            "Column": "Age",
+            "Validation Type": "Closed List",
+            "Allowed Values Applied": true,
+            "Reason": "Column appears to contain controlled values"
+        },
+        {
+            "Column": "Nationality",
+            "Validation Type": "Closed List",
+            "Allowed Values Applied": true,
+            "Reason": "Column appears to contain controlled values"
+        },
+        {
+            "Column": "Operation",
+            "Validation Type": "Closed List",
+            "Allowed Values Applied": true,
+            "Reason": "Column appears to contain controlled values"
+        },
+        {
+            "Column": "Specialty",
+            "Validation Type": "Closed List",
+            "Allowed Values Applied": true,
+            "Reason": "Column appears to contain controlled values"
+        },
+        {
+            "Column": "OR Room NO",
+            "Validation Type": "Closed List",
+            "Allowed Values Applied": true,
+            "Reason": "Column appears to contain controlled values"
+        },
+        {
+            "Column": "Physician Name",
+            "Validation Type": "Open Text",
+            "Allowed Values Applied": false,
+            "Reason": "Column appears to contain open/free-text values"
+        },
+        {
+            "Column": "Operation Type",
+            "Validation Type": "Closed List",
+            "Allowed Values Applied": true,
+            "Reason": "Column appears to contain controlled values"
+        },
+        {
+            "Column": "Request Type",
+            "Validation Type": "Closed List",
+            "Allowed Values Applied": true,
+            "Reason": "Column appears to contain controlled values"
+        },
+        {
+            "Column": "operation duration ",
+            "Validation Type": "Closed List",
+            "Allowed Values Applied": true,
+            "Reason": "Column appears to contain controlled values"
+        },
+        {
+            "Column": "Source ",
+            "Validation Type": "Closed List",
+            "Allowed Values Applied": true,
+            "Reason": "Column appears to contain controlled values"
+        },
+        {
+            "Column": "Hospitals",
+            "Validation Type": "Closed List",
+            "Allowed Values Applied": true,
+            "Reason": "Column appears to contain controlled values"
+        }
+    ],
+    "Operation Monitor Sheet": [
+        {
+            "Column": "MRN",
+            "Validation Type": "Open Text",
+            "Allowed Values Applied": false,
+            "Reason": "Column appears to contain open/free-text values"
+        },
+        {
+            "Column": "Patient Name",
+            "Validation Type": "Open Text",
+            "Allowed Values Applied": false,
+            "Reason": "Column appears to contain open/free-text values"
+        },
+        {
+            "Column": "Gender",
+            "Validation Type": "Closed List",
+            "Allowed Values Applied": true,
+            "Reason": "Column appears to contain controlled values"
+        },
+        {
+            "Column": "Age",
+            "Validation Type": "Closed List",
+            "Allowed Values Applied": true,
+            "Reason": "Column appears to contain controlled values"
+        },
+        {
+            "Column": "Nationality",
+            "Validation Type": "Closed List",
+            "Allowed Values Applied": true,
+            "Reason": "Column appears to contain controlled values"
+        },
+        {
+            "Column": "Operation",
+            "Validation Type": "Closed List",
+            "Allowed Values Applied": true,
+            "Reason": "Column appears to contain controlled values"
+        },
+        {
+            "Column": "Specialty",
+            "Validation Type": "Closed List",
+            "Allowed Values Applied": true,
+            "Reason": "Column appears to contain controlled values"
+        },
+        {
+            "Column": "OR Room NO",
+            "Validation Type": "Closed List",
+            "Allowed Values Applied": true,
+            "Reason": "Column appears to contain controlled values"
+        },
+        {
+            "Column": "Physician Name",
+            "Validation Type": "Open Text",
+            "Allowed Values Applied": false,
+            "Reason": "Column appears to contain open/free-text values"
+        },
+        {
+            "Column": "Operation Type",
+            "Validation Type": "Closed List",
+            "Allowed Values Applied": true,
+            "Reason": "Column appears to contain controlled values"
+        },
+        {
+            "Column": "Request Type",
+            "Validation Type": "Closed List",
+            "Allowed Values Applied": true,
+            "Reason": "Column appears to contain controlled values"
+        },
+        {
+            "Column": "operation duration ",
+            "Validation Type": "Closed List",
+            "Allowed Values Applied": true,
+            "Reason": "Column appears to contain controlled values"
+        },
+        {
+            "Column": "Source ",
+            "Validation Type": "Closed List",
+            "Allowed Values Applied": true,
+            "Reason": "Column appears to contain controlled values"
+        },
+        {
+            "Column": "Hospitals",
+            "Validation Type": "Closed List",
+            "Allowed Values Applied": true,
+            "Reason": "Column appears to contain controlled values"
+        }
+    ],
+    "عدد غرف العمليات الكلي": [
+        {
+            "Column": "المستشفى",
+            "Validation Type": "Open Text",
+            "Allowed Values Applied": false,
+            "Reason": "Column appears to contain open/free-text values"
+        },
+        {
+            "Column": "السبب",
+            "Validation Type": "Closed List",
+            "Allowed Values Applied": true,
+            "Reason": "Column appears to contain controlled values"
+        }
+    ],
+    "نسب الإغلاق": [
+        {
+            "Column": "المنشأة ",
+            "Validation Type": "Open Text",
+            "Allowed Values Applied": false,
+            "Reason": "Column appears to contain open/free-text values"
+        }
+    ]
+}

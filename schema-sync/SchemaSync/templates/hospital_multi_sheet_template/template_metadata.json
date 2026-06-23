@@ -1,0 +1,84 @@
+{
+    "template_name": "Hospital Multi Sheet Template",
+    "safe_name": "hospital_multi_sheet_template",
+    "template_file_path": "templates/hospital_multi_sheet_template/template.xlsx",
+    "created_at": "2026-06-21T14:19:28",
+    "is_multi_sheet": true,
+    "sheet_names": [
+        "Sales",
+        "Pharmacy",
+        "Patients",
+        "Finance"
+    ],
+    "default_sheet": "Sales",
+    "sheets": {
+        "Sales": {
+            "total_columns": 3,
+            "total_sample_rows": 0,
+            "columns": [
+                "Date",
+                "Product",
+                "Sales"
+            ],
+            "date_columns": [],
+            "numeric_columns": [],
+            "category_or_text_columns": [],
+            "closed_list_columns": [],
+            "open_text_columns": []
+        },
+        "Pharmacy": {
+            "total_columns": 3,
+            "total_sample_rows": 0,
+            "columns": [
+                "Medication ID",
+                "Drug Name",
+                "Quantity"
+            ],
+            "date_columns": [],
+            "numeric_columns": [],
+            "category_or_text_columns": [],
+            "closed_list_columns": [],
+            "open_text_columns": []
+        },
+        "Patients": {
+            "total_columns": 3,
+            "total_sample_rows": 0,
+            "columns": [
+                "Patient ID",
+                "Patient Name",
+                "Age"
+            ],
+            "date_columns": [],
+            "numeric_columns": [],
+            "category_or_text_columns": [],
+            "closed_list_columns": [],
+            "open_text_columns": []
+        },
+        "Finance": {
+            "total_columns": 3,
+            "total_sample_rows": 0,
+            "columns": [
+                "Invoice ID",
+                "Amount",
+                "Status"
+            ],
+            "date_columns": [],
+            "numeric_columns": [],
+            "category_or_text_columns": [],
+            "closed_list_columns": [],
+            "open_text_columns": []
+        }
+    },
+    "total_columns": 3,
+    "total_sample_rows": 0,
+    "columns": [
+        "Date",
+        "Product",
+        "Sales"
+    ],
+    "date_columns": [],
+    "numeric_columns": [],
+    "category_or_text_columns": [],
+    "closed_list_columns": [],
+    "open_text_columns": []
+}

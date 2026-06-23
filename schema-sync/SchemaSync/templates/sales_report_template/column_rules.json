@@ -1,0 +1,20 @@
+[
+    {
+        "Column": "Product",
+        "Validation Type": "Closed List",
+        "Allowed Values Applied": true,
+        "Reason": "Column appears to contain controlled values"
+    },
+    {
+        "Column": "Category",
+        "Validation Type": "Closed List",
+        "Allowed Values Applied": true,
+        "Reason": "Column appears to contain controlled values"
+    },
+    {
+        "Column": "Month",
+        "Validation Type": "Closed List",
+        "Allowed Values Applied": true,
+        "Reason": "Column appears to contain controlled values"
+    }
+]

@@ -1,0 +1,529 @@
+{
+    "template_name": "عمليات",
+    "safe_name": "عمليات",
+    "template_file_path": "templates/عمليات/template.xlsx",
+    "created_at": "2026-06-22T13:53:33",
+    "is_multi_sheet": true,
+    "sheet_names": [
+        "LL",
+        "Operation Monitor Sheet",
+        "عدد غرف العمليات الكلي",
+        "نسب الإغلاق"
+    ],
+    "columns": [
+        {
+            "Column": "MRN",
+            "Physical Type": "int64",
+            "Logical Type": "Numeric",
+            "Unique Values": 737,
+            "Unique Ratio": 0.967,
+            "Missing Values": 0,
+            "Missing %": 0.0
+        },
+        {
+            "Column": "Patient Name",
+            "Physical Type": "str",
+            "Logical Type": "Text",
+            "Unique Values": 328,
+            "Unique Ratio": 0.43,
+            "Missing Values": 0,
+            "Missing %": 0.0
+        },
+        {
+            "Column": "Gender",
+            "Physical Type": "str",
+            "Logical Type": "Category",
+            "Unique Values": 3,
+            "Unique Ratio": 0.004,
+            "Missing Values": 0,
+            "Missing %": 0.0
+        },
+        {
+            "Column": "Age",
+            "Physical Type": "object",
+            "Logical Type": "Category",
+            "Unique Values": 76,
+            "Unique Ratio": 0.1,
+            "Missing Values": 0,
+            "Missing %": 0.0
+        },
+        {
+            "Column": "Nationality",
+            "Physical Type": "str",
+            "Logical Type": "Category",
+            "Unique Values": 21,
+            "Unique Ratio": 0.028,
+            "Missing Values": 0,
+            "Missing %": 0.0
+        },
+        {
+            "Column": "Operation",
+            "Physical Type": "str",
+            "Logical Type": "Category",
+            "Unique Values": 119,
+            "Unique Ratio": 0.156,
+            "Missing Values": 0,
+            "Missing %": 0.0
+        },
+        {
+            "Column": "Specialty",
+            "Physical Type": "str",
+            "Logical Type": "Category",
+            "Unique Values": 24,
+            "Unique Ratio": 0.031,
+            "Missing Values": 0,
+            "Missing %": 0.0
+        },
+        {
+            "Column": "OR Room NO",
+            "Physical Type": "object",
+            "Logical Type": "Category",
+            "Unique Values": 70,
+            "Unique Ratio": 0.092,
+            "Missing Values": 0,
+            "Missing %": 0.0
+        },
+        {
+            "Column": "Physician Name",
+            "Physical Type": "str",
+            "Logical Type": "Category",
+            "Unique Values": 134,
+            "Unique Ratio": 0.176,
+            "Missing Values": 0,
+            "Missing %": 0.0
+        },
+        {
+            "Column": "Operation Type",
+            "Physical Type": "str",
+            "Logical Type": "Category",
+            "Unique Values": 11,
+            "Unique Ratio": 0.014,
+            "Missing Values": 0,
+            "Missing %": 0.0
+        },
+        {
+            "Column": "Request Type",
+            "Physical Type": "str",
+            "Logical Type": "Category",
+            "Unique Values": 12,
+            "Unique Ratio": 0.016,
+            "Missing Values": 0,
+            "Missing %": 0.0
+        },
+        {
+            "Column": "Completed On",
+            "Physical Type": "object",
+            "Logical Type": "Date",
+            "Unique Values": 170,
+            "Unique Ratio": 0.223,
+            "Missing Values": 0,
+            "Missing %": 0.0
+        },
+        {
+            "Column": "operation duration ",
+            "Physical Type": "object",
+            "Logical Type": "Category",
+            "Unique Values": 181,
+            "Unique Ratio": 0.238,
+            "Missing Values": 5,
+            "Missing %": 0.66
+        },
+        {
+            "Column": "Source ",
+            "Physical Type": "str",
+            "Logical Type": "Category",
+            "Unique Values": 2,
+            "Unique Ratio": 0.003,
+            "Missing Values": 0,
+            "Missing %": 0.0
+        },
+        {
+            "Column": "Hospitals",
+            "Physical Type": "str",
+            "Logical Type": "Category",
+            "Unique Values": 23,
+            "Unique Ratio": 0.03,
+            "Missing Values": 0,
+            "Missing %": 0.0
+        }
+    ],
+    "sheets": {
+        "LL": [
+            {
+                "Column": "MRN",
+                "Physical Type": "int64",
+                "Logical Type": "Numeric",
+                "Unique Values": 737,
+                "Unique Ratio": 0.967,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "Patient Name",
+                "Physical Type": "str",
+                "Logical Type": "Text",
+                "Unique Values": 328,
+                "Unique Ratio": 0.43,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "Gender",
+                "Physical Type": "str",
+                "Logical Type": "Category",
+                "Unique Values": 3,
+                "Unique Ratio": 0.004,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "Age",
+                "Physical Type": "object",
+                "Logical Type": "Category",
+                "Unique Values": 76,
+                "Unique Ratio": 0.1,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "Nationality",
+                "Physical Type": "str",
+                "Logical Type": "Category",
+                "Unique Values": 21,
+                "Unique Ratio": 0.028,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "Operation",
+                "Physical Type": "str",
+                "Logical Type": "Category",
+                "Unique Values": 119,
+                "Unique Ratio": 0.156,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "Specialty",
+                "Physical Type": "str",
+                "Logical Type": "Category",
+                "Unique Values": 24,
+                "Unique Ratio": 0.031,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "OR Room NO",
+                "Physical Type": "object",
+                "Logical Type": "Category",
+                "Unique Values": 70,
+                "Unique Ratio": 0.092,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "Physician Name",
+                "Physical Type": "str",
+                "Logical Type": "Category",
+                "Unique Values": 134,
+                "Unique Ratio": 0.176,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "Operation Type",
+                "Physical Type": "str",
+                "Logical Type": "Category",
+                "Unique Values": 11,
+                "Unique Ratio": 0.014,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "Request Type",
+                "Physical Type": "str",
+                "Logical Type": "Category",
+                "Unique Values": 12,
+                "Unique Ratio": 0.016,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "Completed On",
+                "Physical Type": "object",
+                "Logical Type": "Date",
+                "Unique Values": 170,
+                "Unique Ratio": 0.223,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "operation duration ",
+                "Physical Type": "object",
+                "Logical Type": "Category",
+                "Unique Values": 181,
+                "Unique Ratio": 0.238,
+                "Missing Values": 5,
+                "Missing %": 0.66
+            },
+            {
+                "Column": "Source ",
+                "Physical Type": "str",
+                "Logical Type": "Category",
+                "Unique Values": 2,
+                "Unique Ratio": 0.003,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "Hospitals",
+                "Physical Type": "str",
+                "Logical Type": "Category",
+                "Unique Values": 23,
+                "Unique Ratio": 0.03,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            }
+        ],
+        "Operation Monitor Sheet": [
+            {
+                "Column": "MRN",
+                "Physical Type": "object",
+                "Logical Type": "Text",
+                "Unique Values": 1823,
+                "Unique Ratio": 0.935,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "Patient Name",
+                "Physical Type": "str",
+                "Logical Type": "Text",
+                "Unique Values": 943,
+                "Unique Ratio": 0.484,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "Gender",
+                "Physical Type": "str",
+                "Logical Type": "Category",
+                "Unique Values": 3,
+                "Unique Ratio": 0.002,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "Age",
+                "Physical Type": "object",
+                "Logical Type": "Category",
+                "Unique Values": 87,
+                "Unique Ratio": 0.045,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "Nationality",
+                "Physical Type": "str",
+                "Logical Type": "Category",
+                "Unique Values": 31,
+                "Unique Ratio": 0.016,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "Operation",
+                "Physical Type": "str",
+                "Logical Type": "Category",
+                "Unique Values": 294,
+                "Unique Ratio": 0.151,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "Specialty",
+                "Physical Type": "str",
+                "Logical Type": "Category",
+                "Unique Values": 74,
+                "Unique Ratio": 0.038,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "OR Room NO",
+                "Physical Type": "object",
+                "Logical Type": "Category",
+                "Unique Values": 109,
+                "Unique Ratio": 0.056,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "Physician Name",
+                "Physical Type": "str",
+                "Logical Type": "Category",
+                "Unique Values": 264,
+                "Unique Ratio": 0.135,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "Operation Type",
+                "Physical Type": "str",
+                "Logical Type": "Category",
+                "Unique Values": 15,
+                "Unique Ratio": 0.008,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "Request Type",
+                "Physical Type": "str",
+                "Logical Type": "Category",
+                "Unique Values": 16,
+                "Unique Ratio": 0.008,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "Completed On",
+                "Physical Type": "datetime64[us]",
+                "Logical Type": "Date",
+                "Unique Values": 20,
+                "Unique Ratio": 0.01,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "operation duration ",
+                "Physical Type": "object",
+                "Logical Type": "Category",
+                "Unique Values": 262,
+                "Unique Ratio": 0.134,
+                "Missing Values": 5,
+                "Missing %": 0.26
+            },
+            {
+                "Column": "Source ",
+                "Physical Type": "str",
+                "Logical Type": "Category",
+                "Unique Values": 2,
+                "Unique Ratio": 0.001,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "Hospitals",
+                "Physical Type": "str",
+                "Logical Type": "Category",
+                "Unique Values": 22,
+                "Unique Ratio": 0.011,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            }
+        ],
+        "عدد غرف العمليات الكلي": [
+            {
+                "Column": "المستشفى",
+                "Physical Type": "str",
+                "Logical Type": "Text",
+                "Unique Values": 16,
+                "Unique Ratio": 1.0,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "التاريخ ",
+                "Physical Type": "datetime64[us]",
+                "Logical Type": "Date",
+                "Unique Values": 1,
+                "Unique Ratio": 0.062,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "عدد غرف العمليات الكلي ",
+                "Physical Type": "int64",
+                "Logical Type": "Numeric",
+                "Unique Values": 6,
+                "Unique Ratio": 0.375,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "الغرف الفعالة ",
+                "Physical Type": "int64",
+                "Logical Type": "Numeric",
+                "Unique Values": 6,
+                "Unique Ratio": 0.375,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "الغرف الغير فعالة ",
+                "Physical Type": "int64",
+                "Logical Type": "Numeric",
+                "Unique Values": 4,
+                "Unique Ratio": 0.25,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "السبب",
+                "Physical Type": "str",
+                "Logical Type": "Text",
+                "Unique Values": 10,
+                "Unique Ratio": 0.625,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            }
+        ],
+        "نسب الإغلاق": [
+            {
+                "Column": "المنشأة ",
+                "Physical Type": "str",
+                "Logical Type": "Text",
+                "Unique Values": 16,
+                "Unique Ratio": 1.0,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "التاريخ",
+                "Physical Type": "datetime64[us]",
+                "Logical Type": "Date",
+                "Unique Values": 1,
+                "Unique Ratio": 0.062,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "عدد العمليات المرسلة من المنشأة",
+                "Physical Type": "int64",
+                "Logical Type": "Numeric",
+                "Unique Values": 11,
+                "Unique Ratio": 0.688,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "عدد العمليات المغلقة ميديكا ",
+                "Physical Type": "int64",
+                "Logical Type": "Numeric",
+                "Unique Values": 10,
+                "Unique Ratio": 0.625,
+                "Missing Values": 0,
+                "Missing %": 0.0
+            },
+            {
+                "Column": "نسبة الاغلاق",
+                "Physical Type": "float64",
+                "Logical Type": "Numeric",
+                "Unique Values": 10,
+                "Unique Ratio": 0.625,
+                "Missing Values": 1,
+                "Missing %": 6.25
+            }
+        ]
+    }
+}

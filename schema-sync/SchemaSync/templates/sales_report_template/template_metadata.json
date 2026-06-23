@@ -1,0 +1,35 @@
+{
+    "total_columns": 6,
+    "total_sample_rows": 5,
+    "columns": [
+        "Date",
+        "Product",
+        "Category",
+        "Sales",
+        "Quantity",
+        "Month"
+    ],
+    "date_columns": [
+        "Date"
+    ],
+    "numeric_columns": [
+        "Sales",
+        "Quantity"
+    ],
+    "category_or_text_columns": [
+        "Product",
+        "Category",
+        "Month"
+    ],
+    "closed_list_columns": [
+        "Product",
+        "Category",
+        "Month"
+    ],
+    "open_text_columns": [],
+    "template_name": "sales_report_template",
+    "safe_name": "sales_report_template",
+    "created_at": "2026-06-23T11:10:39",
+    "allowed_values_file": "templates/sales_report_template/allowed_values.json",
+    "column_rules_file": "templates/sales_report_template/column_rules.json"
+}
