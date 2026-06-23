@@ -64,6 +64,22 @@ def run_pipeline(
     standardized_df = standardizer.standardize_columns(
         keep_extra_columns=True
     )
+    
+    duplicate_columns = (
+        standardized_df.columns[
+        standardized_df.columns.duplicated()
+    ]
+    .unique()
+    .tolist()
+    )
+
+    if duplicate_columns:
+       raise ValueError(
+        "Schema conflict detected. The following template columns "
+        "were matched more than once: "
+        + ", ".join(duplicate_columns)
+        + ". Please review the uploaded file or select the correct template."
+    )
 
     cleaner = DataCleaner(standardized_df)
     cleaned_df, cleaning_summary = cleaner.clean()
