@@ -26,29 +26,32 @@ I am continuously developing my analytical, technical, and problem-solving skill
 
 ---
 
-## 📊 Portfolio Overview
-
-This portfolio showcases data analytics projects developed using industry-standard tools such as **Excel, Power BI, and Python**. The goal is to demonstrate practical analytical skills through real-world datasets, interactive dashboards, and data-driven recommendations.
-
-The projects highlight experience in:
-
-* Data Cleaning & Preparation
-* Dashboard Development
-* KPI Monitoring & Reporting
-* Data Visualization
-* Business Performance Analysis
-* Insight Generation
-* Data Storytelling
-
----
-
 ## 🚀 Featured Projects
 
-### ☕ Coffee Shop Sales Dashboard (Excel)
+### 📋 SchemaSync – Excel Data Quality & Standardization Platform (Python)
 
-An interactive Excel dashboard designed to analyze coffee shop sales performance, monitor key metrics, and support business decision-making through visual insights.
+A template-driven platform developed to automate Excel data validation, standardization, and quality assessment workflows.
 
-🔗 [View Project](coffee-shop-dashboard)
+SchemaSync was designed to solve a common challenge faced by organizations that receive Excel files from multiple departments or external sources with inconsistent structures, formats, and data quality.
+
+Key capabilities include:
+
+* Template-Based Validation
+* Schema Matching & Smart Sheet Assignment
+* Single File Analysis
+* Multi-File Batch Processing
+* Data Quality Assessment
+* Missing Values & Missing Columns Detection
+* Unknown Values Detection
+* Date Analysis & Standardization
+* Outlier Detection
+* Automated Report Generation
+* Standardized Excel Export
+* Template Management System
+
+The platform helps reduce manual data preparation effort, improve data consistency, and streamline validation workflows before reporting and analysis.
+
+🔗 [View Project](schema-sync)
 
 ---
 
@@ -91,30 +94,11 @@ The dashboard helps identify workforce trends, understand employee retention cha
 
 ---
 
-### 📋 SchemaSync – Excel Data Quality & Standardization Platform (Python)
+### ☕ Coffee Shop Sales Dashboard (Excel)
 
-A template-driven platform developed to automate Excel data validation, standardization, and quality assessment workflows.
+An interactive Excel dashboard designed to analyze coffee shop sales performance, monitor key metrics, and support business decision-making through visual insights.
 
-SchemaSync was designed to solve a common challenge faced by organizations that receive Excel files from multiple departments or external sources with inconsistent structures, formats, and data quality.
-
-Key capabilities include:
-
-* Template-Based Validation
-* Schema Matching & Smart Sheet Assignment
-* Single File Analysis
-* Multi-File Batch Processing
-* Data Quality Assessment
-* Missing Values & Missing Columns Detection
-* Unknown Values Detection
-* Date Analysis & Standardization
-* Outlier Detection
-* Automated Report Generation
-* Standardized Excel Export
-* Template Management System
-
-The platform helps reduce manual data preparation effort, improve data consistency, and streamline validation workflows before reporting and analysis.
-
-🔗 [View Project](schema-sync)
+🔗 [View Project](coffee-shop-dashboard)
 
 ---
 
@@ -138,6 +122,23 @@ Certificates related to **Data Analysis, Microsoft Excel, and Power BI**.
 * Matplotlib
 * Data Modeling
 * Business Intelligence
+
+---
+
+## 📊 Core Skills
+
+* Data Cleaning & Preparation
+* Dashboard Development
+* Data Visualization
+* KPI Analysis
+* Business Analytics
+* Data Storytelling
+* Report Building
+* Business Insight Generation
+* Excel Analytics
+* Power BI Development
+* DAX & Power Query
+* Python Data Analysis
 
 ---
 
